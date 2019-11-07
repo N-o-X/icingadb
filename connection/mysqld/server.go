@@ -120,9 +120,14 @@ func (s *Server) Start() (string, error) {
 		cmd.Args = append(params, "--log_error="+path.Join(s.basedir, "install"))
 		cmd.Dir = s.basedir
 
+		var bb bytes.Buffer
+		cmd.Stdout = &bb
+		cmd.Stderr = &bb
+
 		if errRun := cmd.Run(); errRun != nil {
 			os.RemoveAll(s.basedir)
 			s.basedir = ""
+			log.Error(bb.String())
 			return "", errRun
 		}
 	}
