@@ -3,6 +3,7 @@
 package mysqld
 
 import (
+	"bytes"
 	"bufio"
 	"database/sql"
 	"fmt"
