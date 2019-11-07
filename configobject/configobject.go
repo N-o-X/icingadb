@@ -3,7 +3,7 @@
 package configobject
 
 import (
-	"github.com/Icinga/icingadb/connection"
+	"github.com/N-o-X/icingadb/connection"
 )
 
 type ObjectInformation struct {

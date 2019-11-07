@@ -3,7 +3,7 @@
 package jsondecoder
 
 import (
-	"github.com/Icinga/icingadb/connection"
+	"github.com/N-o-X/icingadb/connection"
 	"github.com/json-iterator/go"
 )
 

@@ -3,8 +3,8 @@
 package supervisor
 
 import (
-	"github.com/Icinga/icingadb/connection"
-	"github.com/Icinga/icingadb/jsondecoder"
+	"github.com/N-o-X/icingadb/connection"
+	"github.com/N-o-X/icingadb/jsondecoder"
 	"sync"
 )
 

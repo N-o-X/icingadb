@@ -5,7 +5,7 @@ package ha
 import (
 	"crypto/sha1"
 	"encoding/json"
-	"github.com/Icinga/icingadb/connection"
+	"github.com/N-o-X/icingadb/connection"
 	log "github.com/sirupsen/logrus"
 )
 

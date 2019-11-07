@@ -5,9 +5,9 @@ package customvarflat
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Icinga/icingadb/configobject"
-	"github.com/Icinga/icingadb/connection"
-	"github.com/Icinga/icingadb/utils"
+	"github.com/N-o-X/icingadb/configobject"
+	"github.com/N-o-X/icingadb/connection"
+	"github.com/N-o-X/icingadb/utils"
 	"strconv"
 )
 
